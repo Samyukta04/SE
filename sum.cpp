@@ -2,17 +2,17 @@
 using namespace std;
 
 int main() {
-    int num1, num2, sum;
+    int n1, n2, sum;
 
     cout << "Enter the first number: ";
-    cin >> num1;
+    cin >> n1;
 
     cout << "Enter the second number: ";
-    cin >> num2;
+    cin >> n2;
 
-    sum = num1 - num2;
+    sum = n1 - n2;
 
-    cout << "The sum of " << num1 << " and " << num2 << " is " << sum << "." << endl;
+    cout << "The sum of " << n1 << " and " << n2 << " is " << sum << "." << endl;
 
     return 0;
 }
